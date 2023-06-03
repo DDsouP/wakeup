@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_item1"
+        android:title="分享图片到微信"
+        android:orderInCategory="100"
+        android:icon="@color/sky_qing"
+        android:iconTint="@color/sky_qing"
+        android:iconTintMode="screen"
+        app:showAsAction="never" />
+
+</menu>

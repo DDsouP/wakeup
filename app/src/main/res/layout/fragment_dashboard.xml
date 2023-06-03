@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/homeLay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.dashboard.DashboardFragment">
+
+    <LinearLayout
+        android:id="@+id/actionBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/searchEditText"
+            android:layout_width="213dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="9"
+            android:background="@drawable/rect_edittext"
+            android:gravity="center_vertical"
+            android:drawableLeft="@drawable/fdjb2"
+            android:drawableRight="@drawable/ms2"
+            android:drawablePadding="30dp"
+            android:hint="文字描述或语音" />
+
+
+
+        <Button
+            android:id="@+id/searchButton"
+            android:layout_width="71dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/rect_button"
+            android:backgroundTint="@color/sky_qing"
+            android:text="搜索"
+            android:textColor="#777777"
+            android:textSize="14dp" />
+
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/Search_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="14"
+        android:clipToPadding="false"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_marginBottom="55dp"
+        android:scrollbars="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+
+</LinearLayout>

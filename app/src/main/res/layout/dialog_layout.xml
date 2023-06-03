@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialogLayout"
+    android:layout_width="300dp"
+    android:layout_height="70dp"
+    android:layout_marginTop="70dp"
+    android:background="@color/sky_qing"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/dialogsearchEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/rect_edittext"
+        android:gravity="center_vertical"
+        android:drawableLeft="@drawable/fdjb2"
+        android:drawableRight="@drawable/ms2"
+        android:drawablePadding="30dp"
+        android:hint="文字描述或语音" />
+
+</LinearLayout>
