@@ -20,7 +20,7 @@ val Idlist2: MutableList<Long> = ArrayList()
 val Idlist3: MutableList<Long> = ArrayList()
 var imguri: Uri? = null
 var videouri: Uri? = null
-lateinit var bit_img: Bitmap
+var bit_img: Bitmap？ = null
 
 fun getAndroidId(context: Context) =
     Settings.Secure.getString(context.contentResolver, Settings.Secure.ANDROID_ID)
