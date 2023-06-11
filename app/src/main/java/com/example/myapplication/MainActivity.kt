@@ -39,6 +39,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_PORTRAIT
         setSupportActionBar(toolBar)
         supportActionBar?.let {
             it.setDisplayHomeAsUpEnabled(true)
