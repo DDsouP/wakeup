@@ -16,7 +16,7 @@ class VideoSeeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_video_see)
-
+        requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_PORTRAIT
         intent = getIntent()
         if(intent.getData()!=null) {
             uri = intent.getData()!!
