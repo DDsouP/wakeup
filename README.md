@@ -9,3 +9,5 @@
 
 ![image](https://github.com/DDsouP/wakeup/assets/101051097/6e4d55cb-68f8-4d72-9c79-57ad1000703c)
 
+## 注意事项
+* 本项目不包括服务器端的CLIP模型，需另外部署。
